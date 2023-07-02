@@ -1,0 +1,14 @@
+{
+  "name": "tugas-pekanan-5-yosikrisma",
+  "version": "1.0.0",
+  "description": "Tugas Pekanan 5 Yosi Krisma",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yosikrisma",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.16.0"
+  }
+}

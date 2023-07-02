@@ -7,6 +7,7 @@ module.exports = defineConfig({
       baseUrl : 'https://kasirdemo.belajarqa.com',
       specPattern : "cypress/support/e2e",
       supportFile : false,
+      pageLoadTimeout : 5000,
     },
   },
 );

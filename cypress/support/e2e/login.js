@@ -1,8 +1,10 @@
 describe('Login valid data', ()=>{
     it('Open Apps', () => {
-        // Cypress.config('baseUrl');
+        Cypress.config('baseUrl');
   
-        cy.visit('https://kasirdemo.belajarqa.com/');
+        // cy.visit('https://kasirdemo.belajarqa.com/');
+
+        cy.visit('/');
 
         cy.get('#email').type('yosikr03@gmail.com');
 

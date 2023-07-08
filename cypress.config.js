@@ -8,6 +8,7 @@ module.exports = defineConfig({
       specPattern : "cypress/support/e2e",
       supportFile : false,
       pageLoadTimeout : 5000,
+      chromeWebSecurity: false
     },
   },
 );
